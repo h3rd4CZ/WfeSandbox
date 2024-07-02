@@ -2,8 +2,8 @@ import { UserAgentApplication, Logger, LogLevel } from "msal";
 
 export const msalApp = new UserAgentApplication({
     auth :{
-        authority: "https://login.microsoftonline.com/cdlsystemcz.onmicrosoft.com",
-        clientId : "748d27d0-5cbf-415e-9e76-c285ee68d058",
+        authority: "https://login.microsoftonline.com/xxx.aaa.com",
+        clientId : "XXX",
         redirectUri : "http://localhost:8081"
     },
     cache:{
