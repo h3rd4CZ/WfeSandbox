@@ -1,7 +1,5 @@
 ## About
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Simple FE sandbox / starter solution built originally as helper for MS SharePoint script assets placed on sharepoint pages w/ use of modern web technologies.
 
 ### Built With
