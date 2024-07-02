@@ -1,0 +1,43 @@
+@import 'base.module';
+
+$primary-color:#ccc;
+
+%padded{
+    padding:5px;
+}
+
+@mixin FailedBox($color){
+    border:1px solid $color;
+    color:$color;
+}
+
+div{
+    .ssdlInfo{
+        background-color: $ssdl-color;
+        color:black;
+        width:600px / 800px * 100%;
+    }
+}
+
+button{
+    .ssdlFailClass{
+        color:black;
+    }
+}
+
+.ssdlFailClass3{
+    @extend %padded;
+    color: $primary-color;
+}
+
+.ssdlFailClass{
+    @extend %padded;
+    background-color:#ccc;
+    @include FailedBox(Red);
+}
+
+.ssdlFailClass2{
+    @extend %padded;
+    color: yellow;
+    background-color:gray;
+}
